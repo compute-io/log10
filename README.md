@@ -1,4 +1,4 @@
-Common Logarithm (base 10)
+Common Logarithm
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependencies][dependencies-image]][dependencies-url]
 
@@ -7,7 +7,7 @@ Common Logarithm (base 10)
 The [common logarithm](https://en.wikipedia.org/wiki/Common_logarithm) (logarithm with base 10) is defined for any positive real number as
 
 <div class="equation" align="center" data-raw-text="\quad \log_{10} \left( x \right) = y \quad \text{s.t.} \quad 10^y = x" data-equation="eq:common_logarithm">
-	<img src="" alt="Equation for the common logarithm.">
+	<img src="https://cdn.rawgit.com/compute-io/log10/277599be2fc97fc18c33e3b3253092dd1f8da561/docs/images/eqn.svg" alt="Equation for the common logarithm.">
 	<br>
 </div>
 
