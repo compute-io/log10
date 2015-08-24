@@ -111,7 +111,10 @@ var data = [
 ];
 
 
-var out = log10( data, 'x|1', '|' );
+var out = log10( data, {
+	'path': 'x|1',
+	'sep': '|'
+});
 /*
 	[
 		{'x':[0,4]},
@@ -179,9 +182,9 @@ out = log10( mat, {
 	'copy': false
 });
 /*
-	[ -Infinity 0
-	  0.6931    1.0986
-	  1.3863    1.6094 ]
+	[ -Infinity  0
+	  ~0.301    ~0.477
+	  ~0.602    ~0.699 ]
 */
 
 bool = ( mat === out );
